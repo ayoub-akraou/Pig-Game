@@ -58,8 +58,9 @@ hold.addEventListener("click", function (e) {
     document
       .querySelectorAll("button:not(:first-child)")
       .forEach((e) => (e.disabled = true));
-  }
+  } else {
   switchPlayer();
+  }
 });
 // newGame functionnality
 newGame.addEventListener("click", function (e) {
