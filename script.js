@@ -7,7 +7,7 @@ const hold = document.querySelector(".hold");
 const dice = document.querySelector(".dice");
 const current = document.querySelectorAll(".current");
 const player = document.querySelectorAll(".player");
-let score = document.querySelectorAll(".result");
+const score = document.querySelectorAll(".result");
 const container = document.querySelector(".container");
 let direction = "to right";
 let random;
